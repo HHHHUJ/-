@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<style>
+	*{margin:0;padding:0;}
+	#game{width:320px;height:568px;position:relative;margin:50px auto 0;background:url(image/bg.png);}
+	#game>img{position:absolute;}
+	#game>.score,#game>.life{position:absolute;margin-top:10px;}
+	#game>.life{right:0;}
+	</style>
+</head>
+<body>
+	<div id="game">
+		<div class="score">分数:0</div>
+		<div class="life">
+			<img src="image/heart.png">
+			<img src="image/heart.png">
+			<img src="image/heart.png">
+		</div>
+	</div>
+</body>
+</html>
+<script src="engine.js"></script>
+<script src="hero.js"></script>
